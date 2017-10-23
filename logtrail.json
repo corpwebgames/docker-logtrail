@@ -39,6 +39,7 @@
       "max_hosts": 100,
       "max_events_to_keep_in_viewer": 5000,
       "fields": {
+        "message_format": "{{{message}}}",
         "mapping": {
           "timestamp": "@timestamp",
           "display_timestamp": "@timestamp",
